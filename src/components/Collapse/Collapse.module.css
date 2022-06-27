@@ -1,0 +1,35 @@
+.collapse:last-child {
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.header svg {
+  margin-right: 1rem;
+}
+
+.icon-close {
+  transform: rotate(0deg);
+  transition: transform ease-out 0.3s;
+}
+
+.icon-open {
+  transform: rotate(90deg);
+  transition: transform ease-out 0.3s;
+}
+
+.content-parent {
+  overflow: hidden;
+  transition: height ease 0.3s;
+}
+
+.content {
+  padding: 1em;
+  border-top: solid 1px #d9d9d9;
+}
